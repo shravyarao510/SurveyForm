@@ -1,0 +1,50 @@
+body{
+    background-color: aliceblue;
+   padding-left: 375px;
+   padding-right: 475px;
+   
+}
+h1{
+    padding-left: 200px;
+   padding-bottom: 0px;
+    background-color: blue;
+}
+.main{
+    background-color: #eb8fba;
+    display: table;
+    color: black;
+    border: 2px solid black;
+   padding: 15px;
+   width: 500px;
+   height: 600px;
+   padding-left: 5px;
+   padding-right: 150px;
+}
+.row{
+    display: table-row; 
+    border: 50px;
+}
+.row label{
+    display: table-cell;
+    padding: 2px;
+    text-align: right;
+}
+.row input{
+    display: table-cell;
+    padding: 2px;
+}
+.row select{
+    display: table-cell;
+    padding: 2px;
+
+}
+.row1{
+    padding-left: 300px;
+}
+.sub{
+    cursor: pointer;
+}
+.sub:hover{
+    background-color: rgb(10, 240, 240);
+    color: rgb(145, 6, 17);
+}
